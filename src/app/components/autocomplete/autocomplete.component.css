@@ -1,0 +1,31 @@
+.container {
+	width: 700px;
+	height: 400px;
+	padding: 4%;
+	background-color: #f8bbd0;
+}
+
+.search {
+	z-index: 1000;
+	cursor: pointer;
+	padding: 10px;
+	background-color: #f5f5f5;
+    font-family: sans-serif;
+    opacity: 0.98;
+}
+
+.search-result {
+	padding: 4px;
+	font-size: 15px;
+}
+
+.search-result:hover {
+    background: #707070;
+    color: #fff;
+    font-size: 17px;
+}
+
+.label {
+	font-size: 20px;
+	color: #707070;
+}
